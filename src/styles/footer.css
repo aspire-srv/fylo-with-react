@@ -1,0 +1,65 @@
+@import url(./variable.css);
+
+.footer {
+  padding: 5rem;
+  color: #fff;
+  background-color: var(--blue-dark);
+  width: 85%;
+  margin: 0 1rem;
+}
+
+.footer-container {
+  background-color: var(--blue-dark);
+}
+
+.logo-footer {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(11%) saturate(1%)
+    hue-rotate(154deg) brightness(101%) contrast(101%);
+}
+
+.footer-row {
+  margin-top: 2rem;
+}
+
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.social-img {
+  margin-right: 10px;
+  margin-top: 2rem;
+}
+
+.social-text {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icon,
+.contact-list,
+.about-list {
+  margin-top: 2rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons-footer {
+  margin: 0 1rem;
+}
+
+@media (min-width: 992px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-icon,
+  .contact-list,
+  .about-list {
+    margin-top: 1rem;
+  }
+}

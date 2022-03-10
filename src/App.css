@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+/* .reverse:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+} */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
